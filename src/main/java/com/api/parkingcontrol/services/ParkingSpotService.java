@@ -8,7 +8,6 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
@@ -19,8 +18,8 @@ public class ParkingSpotService {
     ParkingSpotRepository repository;
 
     @Transactional
-    public ParkingSpotModel save (ParkingSpotModel parkingSpotModel) {
-        return repository.save(parkingSpotModel);
+    public void save (ParkingSpotModel parkingSpotModel) {
+        repository.save(parkingSpotModel);
     }
 
     public boolean existsByLicensePlateCar(String licensePlateCar) {
