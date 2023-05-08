@@ -1,6 +1,6 @@
 # Parking-Spot-Control
 
-API REST desenvolvida para controle de vagas de estacionamento para carros em um condomínio. 
+API REST desenvolvida para controle de vagas de estacionamento para carros em um condomínio. Recentemente foi adicionado o Spring Security na aplicação
 
 Abaixo é possível observar os campos usados para fazer as requisições Http.
 
